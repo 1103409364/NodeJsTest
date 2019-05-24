@@ -85,5 +85,4 @@ app.use(express.static('public'));
 // 从上往下拦截,都没有匹配的项,最后到404
 app.use(adminctrl.show404);
 
-app.listen(3000);
-console.log('服务器已运行,端口:3000')
+app.listen(3000, console.log("The server is running on port 3000"));

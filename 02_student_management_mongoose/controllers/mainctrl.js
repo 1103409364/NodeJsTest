@@ -74,7 +74,7 @@ exports.check = (req, res) => {
 //删除
 exports.delete = (req, res) => {
     var sid = req.params.sid;
-    console.log(sid)
+    // console.log(sid)
     Student.find({ "sid": sid }, (err, results) => {
         // 没有找到或者出现错误
         if (err || results.length === 0) {
