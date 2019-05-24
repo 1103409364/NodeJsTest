@@ -25,4 +25,4 @@ app.post    (  '/student/:sid', ctrl.doUpdate  );
 app.get     (       '/student', ctrl.getAll    );	
 // 静态化public文件夹
 app.use(express.static("public"));
-app.listen(3000);
+app.listen(3000, console.log("The server is running on port 3000"));

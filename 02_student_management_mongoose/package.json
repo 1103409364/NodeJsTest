@@ -1,10 +1,11 @@
 {
-  "name": "student_management",
+  "name": "02_student_management_mongoose",
   "version": "2.0.0",
   "description": "express + mongoose 的简版学生管理系统",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node app.js"
   },
   "author": "wcs",
   "license": "ISC",
