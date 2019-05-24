@@ -1,3 +1,6 @@
-# exercise-Node.js
-Node.js 练习项目
-1student_management
+# Node.js 练习项目
+01_student_management
+结合express和MongoDB的简版学生管理系统：
+生成两个样式一样的学生列表，第一个服务端渲染，第二个表格客户端渲染
+
+02_student_management_mongoose

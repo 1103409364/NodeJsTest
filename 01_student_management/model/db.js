@@ -38,7 +38,7 @@ exports.save = (fields, callback) => {
     // Use connect method to connect to the Server选择一个集合班级 class1，插入一个json文档
     client.connect(function (err, client) {
         if (err) {
-            console.log("连接数据库失败,请检查是否运行了mongod");
+            console.log("连接数据库失败,请检查mongod是否正在运行");
             return;
         }
         console.log("Connected correctly to server");
@@ -54,7 +54,7 @@ exports.save = (fields, callback) => {
             }
 
             callback("1");
-            console.log("插入一条成功");
+            console.log("成功插入一条数据");
 
             client.close(); //关闭连接
         });
